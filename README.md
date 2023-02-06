@@ -15,14 +15,31 @@ O objetivo é calcular o melhor trajeto para um navio veleiro percorrer.
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: React JS<br>
+Para rodar o projeto você precisará instalar na sua máquina:
+- [Node.js](https://nodejs.org/en/)
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para rodar o projeto basta executar os seguintes comandos:
 
-## Outros 
+Entrar na pasta app
+````
+cd ./app/
+````
+
+Instalar as dependências do projeto
+````
+npm install
+````
+
+Rodar projeto
+````
+npm start
+````
+
+## Apresentação 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
