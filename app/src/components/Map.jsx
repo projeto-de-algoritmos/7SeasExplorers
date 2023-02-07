@@ -23,6 +23,7 @@ export function Map() {
   const setColorToSelectedPoints = (item) => {
     if (item === departure) return "bg-green-500";
     if (item === arrival) return "bg-red-500";
+    return  "bg-yellow-500"
   };
 
   return (

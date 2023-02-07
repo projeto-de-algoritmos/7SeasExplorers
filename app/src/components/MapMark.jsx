@@ -10,11 +10,11 @@ export function MapMark({
     transform: "translate(-50%, -50%)",
   };
 
+  const color = setColorToSelectedPoints(item)
+
   return (
     <div
-      className={`absolute w-8 h-8 rounded-full bg-yellow-500 hover:opacity-95 transition-opacity cursor-pointer ${setColorToSelectedPoints(
-        item
-      )} z-10`}
+      className={`absolute w-8 h-8 rounded-full ${color} hover:opacity-95 transition-opacity cursor-pointer z-10`}
       style={style}
       onClick={() => handleWithUserSelection(item)}
     ></div>
