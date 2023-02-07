@@ -2,7 +2,7 @@ import { mapGraph } from "./mapGraph"
   
   const nodes = Object.keys(mapGraph)
   
-  const bellmanFord = (graph, source, target) => {
+  export const bellmanFord = (graph, source, target) => {
     const distances = {}
     const previous = {}
     nodes.forEach(node => {
@@ -16,8 +16,8 @@ import { mapGraph } from "./mapGraph"
         
         Object.keys(currentNode).forEach(neighbor => {
           const distance = currentNode[neighbor].distance
-          const badWeatherChance = Math.random()
-          const speed = 9.26 + badWeatherChance*(18.52 - 9.26) 
+          const goodWeatherChance = Math.random()
+          const speed = 9.26 + goodWeatherChance*(18.52 - 9.26) 
           const daysTime = (distance/speed)/24
           const crewMembers = 55
           const dailyWage = 20
@@ -40,8 +40,7 @@ import { mapGraph } from "./mapGraph"
   
     return {
       path,
-      distance: distances[target]
+      finalCost: Math.ceil(distances[target])
     }
   }
 
-  
