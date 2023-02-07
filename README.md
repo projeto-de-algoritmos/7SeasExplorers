@@ -14,7 +14,7 @@ Nosso projeto foi feito inspirado em uma aventura de RPG, utilizamos os conteúd
 ## Screenshots
 ![Tela 01](https://user-images.githubusercontent.com/53478066/217136544-6633b16d-088b-4961-852b-a7acd123e146.jpeg)
 ![Tela 02](https://user-images.githubusercontent.com/53478066/217136586-03b03a09-5208-4583-a17f-7264c72ff8e1.jpeg)
-
+![Tela 03](https://user-images.githubusercontent.com/88190414/217310364-7c9e5a02-ab9a-4b26-9f2a-400c5ff0efdf.png)
 
 ## Instalação 
 **Linguagem**: Javascript<br>
@@ -42,7 +42,7 @@ npm start
 ````
 
 ## Apresentação 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+[Apresentação](app/src/assets/ApresentacaoFinal.mp4)
 
 
 

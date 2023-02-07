@@ -14,9 +14,10 @@ export function MapMark({
 
   return (
     <div
-      className={`absolute w-8 h-8 rounded-full ${color} hover:opacity-95 transition-opacity cursor-pointer z-10`}
+      id={item}
+      className={`absolute px-2 py-1 rounded-md ${color} hover:opacity-95 transition-opacity cursor-pointer z-10 text-white`}
       style={style}
       onClick={() => handleWithUserSelection(item)}
-    ></div>
+    >{item}</div>
   );
 }

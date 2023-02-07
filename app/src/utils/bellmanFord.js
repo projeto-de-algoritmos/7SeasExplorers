@@ -2,7 +2,7 @@ import { mapGraph } from "./mapGraph"
   
   const nodes = Object.keys(mapGraph)
   
-  export const bellmanFord = (graph, source, target) => {
+  export const bellmanFord = (source, target) => {
     const distances = {}
     const previous = {}
     nodes.forEach(node => {
@@ -12,7 +12,7 @@ import { mapGraph } from "./mapGraph"
   
     for (let i = 0; i < nodes.length - 1; i++) {
       nodes.forEach(node => {
-        const currentNode = graph[node]
+        const currentNode = mapGraph[node]
         
         Object.keys(currentNode).forEach(neighbor => {
           const distance = currentNode[neighbor].distance
