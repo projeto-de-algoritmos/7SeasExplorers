@@ -9,10 +9,12 @@
 | 19/0037806 | Samuel Furtado Ávila |
 
 ## Sobre 
-O objetivo é calcular o melhor trajeto para um navio veleiro percorrer.
-
+Nosso projeto foi feito inspirado em uma aventura de RPG, utilizamos os conteúdos de grafo e Bellman-Ford para calcular a rota marítimica com melhor custo considerando um mapa fictício. Para calcular esse custo utilizamos o fator da distância, número de tripulantes, tempo de viagem e até a chance de ter condições climáticas ruins, pode ser que o menor caminho esteja com condições climáticas ruins e isso fará o algoritmo optar pelo caminho mais longo que terá um menor custo. 
+ 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Tela 01](https://user-images.githubusercontent.com/53478066/217136544-6633b16d-088b-4961-852b-a7acd123e146.jpeg)
+![Tela 02](https://user-images.githubusercontent.com/53478066/217136586-03b03a09-5208-4583-a17f-7264c72ff8e1.jpeg)
+
 
 ## Instalação 
 **Linguagem**: Javascript<br>
